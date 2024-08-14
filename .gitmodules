@@ -1,0 +1,6 @@
+[submodule "CelestialMain"]
+	path = CelestialMain
+	url = https://github.com/fishcute/CelestialMain
+[submodule "CelestialExpressions"]
+	path = CelestialExpressions
+	url = https://github.com/block36underscore/CelestialExpressions.git
