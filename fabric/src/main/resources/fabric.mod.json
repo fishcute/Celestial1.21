@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "celestial",
+  "version": "${version}",
+
+  "name": "Celestial",
+  "description": "A Minecraft mod for Fabric and Forge that allows you to customize the sky.",
+  "authors": [
+    "fishcute",
+    "block36_"
+  ],
+  "contact": {
+    "repo": "https://github.com/fishcute/Celestial",
+    "sources": "https://github.com/fishcute/Celestial1.18.2",
+    "issues": "https://github.com/fishcute/Celestial/issues"
+  },
+
+  "license": "MIT",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "fishcute.celestialfabric.CelestialFabric"
+    ]
+  },
+  "mixins": [
+    "celestial.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "minecraft": ">=1.19.4"
+  }
+}
